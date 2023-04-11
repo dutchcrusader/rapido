@@ -1,0 +1,100 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #FF6000;
+    color: #ffa559;
+    text-align: center;
+    width: 100%;    
+    height: auto;
+}
+footer {
+    background-color: #454545;
+    color: #ffe6c7;
+    width: 100%;
+    min-height: 100px;
+}
+table {
+    width: 100%;
+    height: auto;   
+    text-align: center;
+    color: #454545;
+}
+td {
+    width: 25%;
+}
+h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#slogan {
+    padding-top: 2%;
+    text-align: center;
+}
+#copyright {
+    padding-left: 10px;
+}
+#nieuwsbrief {
+    text-align: center;
+}
+input {
+    padding-left: 10px;
+    width: auto;
+}
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #ff6000;
+    color: #ffe6c7;
+    border: none;
+    text-decoration: none;
+}
+#cel1 {
+    background-color: #ffcc66;
+}
+#cel2 {
+    background-color: #66ccff;
+}   
+#cel3 {
+    background-color: #99ff99;
+}   
+#cel4 {
+    background-color: #cc99ff;
+}   
+#cel5 {
+    background-color: #66ccff;
+}   
+#cel6 {
+    background-color: #ffcc66;
+}   
+#cel7 {
+    background-color: #cc99ff;
+}   
+#cel8 {
+    background-color: #ff4500;
+}   
+#cel9 {
+    background-color: #00ff00;
+}   
+#cel10 {
+    background-color: #8B008B;
+}   
+#cel11 {
+    background-color: #ffc0cb;
+}   
+#cel12{
+    background-color: #c0ffcb;
+}   
+#cel13 {
+    background-color: #ccff66;
+}   
+#cel14 {
+    background-color: #ffcc66;
+}   
+#cel15 {
+    background-color: #99ffcb;
+}   
+#cel16 {
+    background-color: #008b8b;
+}
