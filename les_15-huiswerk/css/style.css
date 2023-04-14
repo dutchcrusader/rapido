@@ -1,0 +1,130 @@
+/* Same on all pages */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5ebeb;
+    color: #867070;
+}
+header {
+    margin: 0px 0px 20px 0px;
+}
+.top {
+    height: auto;
+    background-color: #d5b4b4;
+    padding: 50px 0px 10px 0px;
+}
+.top h2 {
+    margin-left: 50px;
+}
+.menu {
+    background-color: #867070;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover {
+    color: #d5b4b4;
+}
+.menu li {
+    display: inline-block;
+    height: 25px;
+    width: auto;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: #867070;
+}
+footer {
+    height: auto;
+    background-color: #d5b4b4;
+    padding: 50px 0px 5px 0px;
+    margin-top: 20px;
+}
+.copyright {
+    font-size: x-small;
+    margin-left: 20px;
+    margin-right: 2%;
+}
+
+/* CSS for index.html */
+.container {
+    display: flex;
+    position: relative;
+}
+.tekst {
+    text-align: justify;
+    vertical-align: middle;
+}
+.intro {
+    width: 85%;
+    margin-right: 2%;
+}
+.foto {
+    width: 15%;
+}
+.image {
+    width: 60%;
+    margin: 0px 20px 0px 20px;    
+}
+.outro {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 2%;
+}
+
+/* CSS for mijncv.html */
+.personal table {
+    margin-left: 40px;
+}
+.personal, .experience {
+    margin-left: 20px;
+    margin-right: 2%;
+}
+.experience li {    
+    list-style-type: none;    
+}
+td {
+    padding-right: 5px;
+}
+
+/* CSS for contact.html */
+.contactfoto img {
+    width: 90%;
+    margin: 0 10px;
+    border-radius: 4px;    
+}
+.form {
+    background-color: #d5b4b4;
+    border-radius: 4px;
+    height: 100%;
+    width: 40%;  
+    margin: 0 10px;
+    padding: 10px; 
+    text-align: center; 
+}
+.containerform {
+    display: flex;  
+    justify-content: center;
+}
+.form input, textarea, button{    
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+}
+textarea {
+    height: 100px;
+    font-family: inherit;
+}
+button {
+    font-family: inherit;
+    background-color: #867070;
+    width: 100px;
+    border: none;
+    color: white;
+    display: inline-block;
+}
+button:hover {
+    transform: translateY(-2px);
+}
