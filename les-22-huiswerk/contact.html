@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2798aa9cc4.js" crossorigin="anonymous"></script>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <div class="brand">Paul Fuller<b>.</b></div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="overmij.html">Over Mij</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container-md" id="contact">
+            <div class="row">                
+                <div class="col-md-6">
+                    <form action="/submit-form" method="post">
+                        <div class="form-group">
+                          <label for="name">Naam:</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Bericht:</label>
+                          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Verstuur</button>
+                      </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="imgbox">
+                        <img src="img/Wurlitzer-2100.png" alt="Wurlitzer 2100" class="img-fluid">
+                    </div>
+                </div>   
+            </div>         
+        </div>
+
+
+        <footer class="bg-light py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-start">
+                        <p class="small mb-0">&copy;2023 Rapido | Alle rechten voorbehouden. Niets van deze pagina mag worden verveelvoudigd, opgeslagen in een geautomatiseerd gegevensbestand of openbaar worden gemaakt, in enige vorm of op enige wijze, hetzij elektronisch, mechanisch, door fotokopieën, opnamen of op enige andere manier, zonder voorafgaande schriftelijke toestemming van de auteur.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
