@@ -1,0 +1,20 @@
+.navbar img {
+  max-height: 30px;
+  max-width: 30px;
+  margin-right: 10px;
+}
+.col-md-4 {
+    margin-bottom: 10%;
+}
+b {
+    color: orangered;
+    font-size: 30px;
+}
+.btn-primary {
+    background-color: orangered; 
+    border: none;   
+}
+.btn-primary:hover {
+    background-color: orange;
+    border: none;
+}
