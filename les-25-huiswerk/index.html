@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactformulier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div id="main">
+        <form id="contact-form">
+            <div class="input">
+                <input type="text" id="name" name="name" placeholder="Naam" required>
+            </div>
+            <div class="input">
+                <input type="text" id="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="input">
+                <textarea name="message" id="message" placeholder="Bericht" required></textarea>
+            </div>
+            <div id="button">
+                <button type="submit">Verzenden</button>
+            </div>
+        </form>
+        <div id="message-container"></div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#contact-form').submit(function(e) {
+                e.preventDefault();
+
+                // Verkrijg de ingevulde waarden
+                var name = $('#name').val();
+                var email = $('#email').val();
+                var message = $('#message').val();
+
+                // Simuleer het verzenden van het formulier
+                $('#message-container').text('Formulier succesvol verzonden!');
+                
+                setTimeout(function() {
+                    $('#message-container').text('');
+                }, 10000);
+
+
+                console.log('Naam: ' + name);
+                console.log('E-mail: ' + email);
+                console.log('Bericht: ' + message);
+
+                // Reset het formulier
+                $('#contact-form')[0].reset();
+            });
+        });
+    </script>
+    
+</body>
+</html>
