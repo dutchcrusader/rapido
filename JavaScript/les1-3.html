@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<button onclick="toonVersie()">Check browserversie</button>
+<div id="output"></div>
+
+<script>
+
+    const versie = navigator.appVersion;
+    const tekst = "Je gebruikt browserversie: ";
+    function toonVersie(){
+    document.getElementById('output').innerHTML = tekst + versie;
+    }
+
+</script>
+
+</body>
+</html>
